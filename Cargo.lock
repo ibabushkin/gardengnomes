@@ -1,0 +1,23 @@
+[root]
+name = "gardengnomes"
+version = "0.1.0"
+dependencies = [
+ "goblin 0.0.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "byteorder"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "goblin"
+version = "0.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "byteorder 0.5.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum byteorder 0.5.3 (registry+https://github.com/rust-lang/crates.io-index)" = "0fc10e8cc6b2580fda3f36eb6dc5316657f812a3df879a44a66fc9f0fdbc4855"
+"checksum goblin 0.0.2 (registry+https://github.com/rust-lang/crates.io-index)" = "836737747be93a839b487c56f9b081972f46e4716e44a1efdec9c23ca2fafbc0"
