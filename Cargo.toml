@@ -11,4 +11,4 @@ keywords = []
 license = "BSD3"
 
 [dependencies]
-goblin = { version = "0.0.2", features = ["no_mach", "no_mach32", "no_pe", "no_pe32", "no_endian_fd"] }
+xmas-elf = "0.3.0"
